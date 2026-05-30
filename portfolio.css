@@ -22,11 +22,14 @@ body {
 #DoorClickerIMG {
     width: 90%;
 }
+#SoundboardIMG {
+    width: 90%;
+}
 .FAQs {
     background: #dbe9f4;
     padding: 5px 10px;    
 }
-#UpdateListBtn {
+.UpdateListBtn {
     background: #88E2F2;
     font-family: 'StaryFont', sans-serif;
     margin-bottom: 10px;
