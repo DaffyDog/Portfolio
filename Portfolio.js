@@ -1,15 +1,27 @@
-let updateListEl = document.getElementById("Updatelist")
+let dupdateListEl = document.getElementById("Updatelist")
+let supdateListEl = document.getElementById("SoundUpdatelist")
 let door = 0
 
-updateListEl.style.display = "none"
+dupdateListEl.style.display = "none"
+supdateListEl.style.display = "none"
 
 function DoorClickerUpdateList() {
     if (door===0) {
-        updateListEl.style.display = "block"
+        dupdateListEl.style.display = "block"
         door = 1
     }
     else {
-        updateListEl.style.display = "none"
+        dupdateListEl.style.display = "none"
+        door = 0
+    }
+}
+function SoundboardUpdateList() {
+    if (door===0) {
+        supdateListEl.style.display = "block"
+        door = 1
+    }
+    else {
+        supdateListEl.style.display = "none"
         door = 0
     }
 }
